@@ -57,22 +57,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "description": "F5 to Command R",
-            "manipulators": [
-                {
-                    "type": "basic",
-                    "from": {
-                        "key_code": "al_calculator"
-                    },
-                    "to": [
-                        {
-                            "shell_command": "open '/System/Applications/Calculator.app'"
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

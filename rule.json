@@ -57,6 +57,16 @@
                     ]
                 }
             ]
+        },{
+            "type": "basic",
+            "from": {
+                "key_code": "al_calculator"
+            },
+            "to": [
+                {
+                    "shell_command": "open '/Applications/计算器.app'"
+                }
+            ]
         }
     ]
 }

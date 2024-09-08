@@ -1,111 +1,135 @@
 {
     "title": "PC",
     "rules": [
-        {
-            "description": "Home to Command Left",
-            "manipulators": [
-                {
-                    "type": "basic",
-                    "from": {
-                        "key_code": "home"
-                    },
-                    "to": [
-                        {
-                            "key_code": "left_arrow",
-                            "modifiers": [
-                                "command"
-                            ]
-                        }
-                    ]
-                }
+      {
+        "description": "Home to Command Left",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "home"
+            },
+            "to": [
+              {
+                "key_code": "left_arrow",
+                "modifiers": [
+                  "command"
+                ]
+              }
             ]
-        },
-        {
-            "description": "End to Command Right",
-            "manipulators": [
-                {
-                    "type": "basic",
-                    "from": {
-                        "key_code": "end"
-                    },
-                    "to": [
-                        {
-                            "key_code": "right_arrow",
-                            "modifiers": [
-                                "command"
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "description": "End to Command Right",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "end"
+            },
+            "to": [
+              {
+                "key_code": "right_arrow",
+                "modifiers": [
+                  "command"
+                ]
+              }
             ]
-        },
-        {
-            "description": "F5 to Command R",
-            "manipulators": [
-                {
-                    "type": "basic",
-                    "from": {
-                        "key_code": "f5"
-                    },
-                    "to": [
-                        {
-                            "key_code": "r",
-                            "modifiers": [
-                                "command"
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "description": "F5 to Command R",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "f5"
+            },
+            "to": [
+              {
+                "key_code": "r",
+                "modifiers": [
+                  "command"
+                ]
+              }
             ]
-        },
-        {
-            "description": "Command+L to Lock Screen",
-            "manipulators": [
-                {
-                    "type": "basic",
-                    "from": {
-                        "key_code": "l",
-                        "modifiers": {
-                            "mandatory": [
-                                "command"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "q",
-                            "modifiers": [
-                                "left_control",
-                                "left_command"
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "description": "Command+L to Lock Screen",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "l",
+              "modifiers": {
+                "mandatory": [
+                  "command"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "q",
+                "modifiers": [
+                  "left_control",
+                  "left_command"
+                ]
+              }
             ]
-        },
-        {
-            "description": "Option+tab to Command+tab",
-            "manipulators": [
-                {
-                    "type": "basic",
-                    "from": {
-                        "key_code": "tab",
-                        "modifiers": {
-                            "mandatory": [
-                                "option"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "tab",
-                            "modifiers": [
-                                "command"
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "description": "Option+tab to Command+tab",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "tab",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "tab",
+                "modifiers": [
+                  "command"
+                ]
+              }
             ]
-        }
+          }
+        ]
+      },
+      {
+        "description": "Control+tab to Control+Up",
+        "manipulators": [
+            {
+                "type": "basic",
+                "from": {
+                  "key_code": "tab",
+                  "modifiers": {
+                    "mandatory": [
+                      "control"
+                    ]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "up_arrow",
+                    "modifiers": [
+                      "control"
+                    ]
+                  }
+                ]
+              }
+        ]
+      }
     ]
-}
+  }

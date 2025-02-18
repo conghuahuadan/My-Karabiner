@@ -59,31 +59,6 @@
         ]
       },
       {
-        "description": "Command+L to Lock Screen",
-        "manipulators": [
-          {
-            "type": "basic",
-            "from": {
-              "key_code": "l",
-              "modifiers": {
-                "mandatory": [
-                  "command"
-                ]
-              }
-            },
-            "to": [
-              {
-                "key_code": "q",
-                "modifiers": [
-                  "left_control",
-                  "left_command"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "description": "Option+tab to Command+tab",
         "manipulators": [
           {
